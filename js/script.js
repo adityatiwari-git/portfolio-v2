@@ -11,6 +11,7 @@ const roles = [
 
 let roleIndex = 0;
 const typingText = document.getElementById("typing-text");
+const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 function changeRole() {
     if(!typingText) return;
@@ -24,7 +25,10 @@ function changeRole() {
 }
 
 changeRole();
-setInterval(changeRole, 2000);
+
+if(!reducedMotion){
+    setInterval(changeRole, 2000);
+}
 
 // =========================
 // ACTIVE NAVBAR
