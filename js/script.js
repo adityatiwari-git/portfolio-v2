@@ -3,17 +3,18 @@
 // =========================
 
 const roles = [
-    "Bioinformatics Undergraduate",
+    "Bioinformatics Developer",
     "AI Builder",
     "Full-Stack Learner",
-    "Future Bioinformatician"
+    "Computational Biology Explorer"
 ];
 
 let roleIndex = 0;
-
 const typingText = document.getElementById("typing-text");
 
 function changeRole() {
+    if(!typingText) return;
+
     typingText.textContent = roles[roleIndex];
     roleIndex++;
 
