@@ -43,7 +43,6 @@ https://adityatiwari-git.github.io/portfolio-v2/
 
 - GitHub: https://github.com/adityatiwari-git
 - LinkedIn: https://www.linkedin.com/in/er-aditya-tiwari/
-- Instagram: https://www.instagram.com/aditya_.1206._/
 - Email: tiwariaditya28925@gmail.com
 
 ---
