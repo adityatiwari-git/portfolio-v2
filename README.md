@@ -52,3 +52,24 @@ The site is deployed as a static GitHub Pages portfolio.
 **Portfolio V2** — a refreshed version of my personal portfolio focused on clearer project presentation and a stronger recruiter experience.
 
 Designed and developed by **Aditya Tiwari**.
+
+## 🤖 Scheduled Project Maintenance
+
+This repository has its own GitHub Actions maintenance workflow. It is **repository-local**, so it uses GitHub's built-in `GITHUB_TOKEN` instead of a personal access token or cross-repository secret.
+
+### What the `.github/` folder is for
+
+- `.github/workflows/daily-maintenance.yml` — runs the scheduled maintenance workflow.
+- `.github/maintenance/schedule.json` — stores this repository's assigned dates and task names.
+- `.github/maintenance/run_task.py` — contains the simple, predefined task logic.
+
+The workflow runs at **09:00 IST (03:30 UTC)** and can also be started manually.
+
+Assigned October 2026 dates:
+- 2026-10-09
+- 2026-10-18
+- 2026-10-26
+
+> **No meaningful change = no commit and no pull request.**
+
+The workflow does not use Claude, OpenAI, or another external AI coding service.
