@@ -39,6 +39,8 @@ portfolio-v2/
 
 https://adityatiwari-git.github.io/portfolio-v2/
 
+The site is deployed as a static GitHub Pages portfolio.
+
 ## 📬 Contact
 
 - GitHub: https://github.com/adityatiwari-git
