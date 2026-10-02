@@ -1,0 +1,14 @@
+{
+  "2026-10-09": {
+    "task_id": "accessibility_notes",
+    "description": "Document the accessibility-focused features already present in the portfolio."
+  },
+  "2026-10-18": {
+    "task_id": "performance_notes",
+    "description": "Add a concise note about keeping the static portfolio lightweight."
+  },
+  "2026-10-26": {
+    "task_id": "deployment_notes",
+    "description": "Document the GitHub Pages deployment path used by the portfolio."
+  }
+}
