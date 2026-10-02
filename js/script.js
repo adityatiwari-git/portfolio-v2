@@ -36,6 +36,7 @@ if(!reducedMotion){
 
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-link");
+const navbarCollapse = document.getElementById("navbarNav");
 
 window.addEventListener("scroll", () => {
     let current = "";
