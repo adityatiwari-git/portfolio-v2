@@ -73,3 +73,8 @@ Assigned October 2026 dates:
 > **No meaningful change = no commit and no pull request.**
 
 The workflow does not use Claude, OpenAI, or another external AI coding service.
+
+
+## Accessibility Notes
+
+The portfolio already includes accessible focus states and reduced-motion support. These features help keyboard users navigate interactive elements and allow visitors who prefer reduced motion to use the site with fewer animation effects.
