@@ -57,14 +57,3 @@ window.addEventListener("scroll", () => {
         }
     });
 });
-
-// =========================
-// SCROLL ANIMATIONS
-// =========================
-
-if (window.AOS) {
-    AOS.init({
-        duration: 800,
-        once: true
-    });
-}
